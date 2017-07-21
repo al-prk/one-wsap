@@ -7,7 +7,7 @@ services:
   lb:
     image: dockercloud/haproxy
     links:
-      - one-ws
+      - one-ws24
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
